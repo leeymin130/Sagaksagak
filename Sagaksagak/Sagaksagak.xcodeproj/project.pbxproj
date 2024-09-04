@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D1D36432C77282200A5E5E1 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D36422C77282200A5E5E1 /* Diary.swift */; };
 		7D64A8822C6DD7C8003B4F82 /* SagaksagakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64A8812C6DD7C8003B4F82 /* SagaksagakApp.swift */; };
 		7D64A8842C6DD7C8003B4F82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64A8832C6DD7C8003B4F82 /* ContentView.swift */; };
 		7D64A8862C6DD7C9003B4F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D64A8852C6DD7C9003B4F82 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D1D36422C77282200A5E5E1 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 		7D64A87E2C6DD7C8003B4F82 /* Sagaksagak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sagaksagak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D64A8812C6DD7C8003B4F82 /* SagaksagakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SagaksagakApp.swift; sourceTree = "<group>"; };
 		7D64A8832C6DD7C8003B4F82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D1D36442C8576F000A5E5E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D36422C77282200A5E5E1 /* Diary.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D1D36452C8576FE00A5E5E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7D1D36462C85770600A5E5E1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		7D64A8752C6DD7C8003B4F82 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +77,9 @@
 			children = (
 				7D64A8812C6DD7C8003B4F82 /* SagaksagakApp.swift */,
 				7D64A8832C6DD7C8003B4F82 /* ContentView.swift */,
+				7D1D36442C8576F000A5E5E1 /* Model */,
+				7D1D36452C8576FE00A5E5E1 /* View */,
+				7D1D36462C85770600A5E5E1 /* ViewModel */,
 				7D64A8852C6DD7C9003B4F82 /* Assets.xcassets */,
 				7D64A8872C6DD7C9003B4F82 /* Preview Content */,
 			);
@@ -139,6 +166,7 @@
 			files = (
 				7D64A8842C6DD7C8003B4F82 /* ContentView.swift in Sources */,
 				7D64A8822C6DD7C8003B4F82 /* SagaksagakApp.swift in Sources */,
+				7D1D36432C77282200A5E5E1 /* Diary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
