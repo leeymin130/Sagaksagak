@@ -12,6 +12,11 @@
 		7D64A8842C6DD7C8003B4F82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64A8832C6DD7C8003B4F82 /* ContentView.swift */; };
 		7D64A8862C6DD7C9003B4F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D64A8852C6DD7C9003B4F82 /* Assets.xcassets */; };
 		7D64A8892C6DD7C9003B4F82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D64A8882C6DD7C9003B4F82 /* Preview Assets.xcassets */; };
+		7DDFA8952C88B113006738A7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDFA8942C88B113006738A7 /* MainView.swift */; };
+		7DDFA8982C88BF51006738A7 /* KCC은영체(MAC용).otf in Resources */ = {isa = PBXBuildFile; fileRef = 7DDFA8972C88BF51006738A7 /* KCC은영체(MAC용).otf */; };
+		7DDFA89B2C88C289006738A7 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDFA89A2C88C289006738A7 /* FontManager.swift */; };
+		7DDFA89D2C9AE88D006738A7 /* MakeDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDFA89C2C9AE88D006738A7 /* MakeDiaryView.swift */; };
+		7DDFA89F2C9AEF1D006738A7 /* DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDFA89E2C9AEF1D006738A7 /* DiaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,12 @@
 		7D64A8832C6DD7C8003B4F82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D64A8852C6DD7C9003B4F82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D64A8882C6DD7C9003B4F82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DDFA8942C88B113006738A7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7DDFA8972C88BF51006738A7 /* KCC은영체(MAC용).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KCC은영체(MAC용).otf"; sourceTree = "<group>"; };
+		7DDFA8992C88BFAA006738A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7DDFA89A2C88C289006738A7 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		7DDFA89C2C9AE88D006738A7 /* MakeDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeDiaryView.swift; sourceTree = "<group>"; };
+		7DDFA89E2C9AEF1D006738A7 /* DiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +56,9 @@
 		7D1D36452C8576FE00A5E5E1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7DDFA8942C88B113006738A7 /* MainView.swift */,
+				7DDFA89C2C9AE88D006738A7 /* MakeDiaryView.swift */,
+				7DDFA89E2C9AEF1D006738A7 /* DiaryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -75,6 +89,8 @@
 		7D64A8802C6DD7C8003B4F82 /* Sagaksagak */ = {
 			isa = PBXGroup;
 			children = (
+				7DDFA8992C88BFAA006738A7 /* Info.plist */,
+				7DDFA8962C88BEEE006738A7 /* Font */,
 				7D64A8812C6DD7C8003B4F82 /* SagaksagakApp.swift */,
 				7D64A8832C6DD7C8003B4F82 /* ContentView.swift */,
 				7D1D36442C8576F000A5E5E1 /* Model */,
@@ -92,6 +108,15 @@
 				7D64A8882C6DD7C9003B4F82 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7DDFA8962C88BEEE006738A7 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				7DDFA8972C88BF51006738A7 /* KCC은영체(MAC용).otf */,
+				7DDFA89A2C88C289006738A7 /* FontManager.swift */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DDFA8982C88BF51006738A7 /* KCC은영체(MAC용).otf in Resources */,
 				7D64A8892C6DD7C9003B4F82 /* Preview Assets.xcassets in Resources */,
 				7D64A8862C6DD7C9003B4F82 /* Assets.xcassets in Resources */,
 			);
@@ -164,7 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DDFA89B2C88C289006738A7 /* FontManager.swift in Sources */,
 				7D64A8842C6DD7C8003B4F82 /* ContentView.swift in Sources */,
+				7DDFA89D2C9AE88D006738A7 /* MakeDiaryView.swift in Sources */,
+				7DDFA89F2C9AEF1D006738A7 /* DiaryView.swift in Sources */,
+				7DDFA8952C88B113006738A7 /* MainView.swift in Sources */,
 				7D64A8822C6DD7C8003B4F82 /* SagaksagakApp.swift in Sources */,
 				7D1D36432C77282200A5E5E1 /* Diary.swift in Sources */,
 			);
@@ -303,6 +333,7 @@
 				DEVELOPMENT_TEAM = P8WX55FW3V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sagaksagak/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -332,6 +363,7 @@
 				DEVELOPMENT_TEAM = P8WX55FW3V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sagaksagak/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
