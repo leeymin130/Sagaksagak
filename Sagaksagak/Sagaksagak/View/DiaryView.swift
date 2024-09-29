@@ -11,7 +11,39 @@ struct DiaryView: View {
     var diary: Diary
     
     var body: some View {
-        Text("DiaryView")
+        NavigationStack {
+            VStack{
+                Text("DiaryView")
+                    .background(Color.red)
+            }
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Menu {
+                        Button(action: {
+                            
+                        }) {
+                        Label("수정", systemImage: "pencil")
+                        }
+                        Button(action: {
+                            
+                        }) {
+                        Label("즐겨찾기", systemImage: "heart")
+                        }
+                        Button(action: {
+                            
+                        }) {
+                        Label("삭제", systemImage: "trash")
+                        }
+                        
+
+                    } label: {
+                        Image(systemName: "ellipsis.circle")
+                    }
+                    .tint(.indigo)
+                }
+            }
+        }
+        
     }
 }
 
